@@ -1,0 +1,4026 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Test Execution Report</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Automation Test Report</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Jun 23, 2026 02:18:32 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<a class="dropdown-item" status="skip" href="#"><span>Skip</span><span class="status warning"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">LOGIN</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="skip" test-id="1"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-001</p>
+            <p class="text-sm">
+              <span>2:18:34 PM</span> / <span>00:00:00:033</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-001</h5>
+<span class='badge badge-success'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-default'>00:00:00:033</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-001</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="2"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-002</p>
+            <p class="text-sm">
+              <span>2:18:34 PM</span> / <span>00:00:00:002</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-002</h5>
+<span class='badge badge-success'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-default'>00:00:00:002</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-002</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="3"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-003</p>
+            <p class="text-sm">
+              <span>2:18:34 PM</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-003</h5>
+<span class='badge badge-success'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-003</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="4"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-004</p>
+            <p class="text-sm">
+              <span>2:18:34 PM</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-004</h5>
+<span class='badge badge-success'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-004</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="5"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-005</p>
+            <p class="text-sm">
+              <span>2:18:34 PM</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-005</h5>
+<span class='badge badge-success'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-005</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="6"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-006</p>
+            <p class="text-sm">
+              <span>2:18:34 PM</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-006</h5>
+<span class='badge badge-success'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-006</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="7"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-007</p>
+            <p class="text-sm">
+              <span>2:18:34 PM</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-007</h5>
+<span class='badge badge-success'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-007</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="8"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-008</p>
+            <p class="text-sm">
+              <span>2:18:34 PM</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-008</h5>
+<span class='badge badge-success'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-008</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="9"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-009</p>
+            <p class="text-sm">
+              <span>2:18:34 PM</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-009</h5>
+<span class='badge badge-success'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-009</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="10"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-010</p>
+            <p class="text-sm">
+              <span>2:18:34 PM</span> / <span>00:00:00:000</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-010</h5>
+<span class='badge badge-success'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-010</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="11"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-011</p>
+            <p class="text-sm">
+              <span>2:18:34 PM</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-011</h5>
+<span class='badge badge-success'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-011</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="12"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-012</p>
+            <p class="text-sm">
+              <span>2:18:34 PM</span> / <span>00:00:00:000</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-012</h5>
+<span class='badge badge-success'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-012</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="13"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-013</p>
+            <p class="text-sm">
+              <span>2:18:34 PM</span> / <span>00:00:00:000</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-013</h5>
+<span class='badge badge-success'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-013</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="14"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-014</p>
+            <p class="text-sm">
+              <span>2:18:34 PM</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-014</h5>
+<span class='badge badge-success'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-014</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="15"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-015</p>
+            <p class="text-sm">
+              <span>2:18:34 PM</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-015</h5>
+<span class='badge badge-success'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-015</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="16"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-016</p>
+            <p class="text-sm">
+              <span>2:18:34 PM</span> / <span>00:00:00:002</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-016</h5>
+<span class='badge badge-success'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-default'>00:00:00:002</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-016</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="17"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-017</p>
+            <p class="text-sm">
+              <span>2:18:34 PM</span> / <span>00:00:00:000</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-017</h5>
+<span class='badge badge-success'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-017</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="18"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-018</p>
+            <p class="text-sm">
+              <span>2:18:34 PM</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-018</h5>
+<span class='badge badge-success'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-018</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="19"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-019</p>
+            <p class="text-sm">
+              <span>2:18:34 PM</span> / <span>00:00:00:000</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-019</h5>
+<span class='badge badge-success'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-019</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="20"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-020</p>
+            <p class="text-sm">
+              <span>2:18:34 PM</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-020</h5>
+<span class='badge badge-success'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-020</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="21"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-021</p>
+            <p class="text-sm">
+              <span>2:18:34 PM</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-021</h5>
+<span class='badge badge-success'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=21</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-021</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="22"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-022</p>
+            <p class="text-sm">
+              <span>2:18:34 PM</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-022</h5>
+<span class='badge badge-success'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=22</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-022</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="23"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-023</p>
+            <p class="text-sm">
+              <span>2:18:34 PM</span> / <span>00:00:00:000</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-023</h5>
+<span class='badge badge-success'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=23</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-023</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="24"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-024</p>
+            <p class="text-sm">
+              <span>2:18:34 PM</span> / <span>00:00:00:000</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-024</h5>
+<span class='badge badge-success'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=24</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-024</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="25"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-025</p>
+            <p class="text-sm">
+              <span>2:18:34 PM</span> / <span>00:00:00:002</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-025</h5>
+<span class='badge badge-success'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-default'>00:00:00:002</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=25</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-025</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="26"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-026</p>
+            <p class="text-sm">
+              <span>2:18:34 PM</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-026</h5>
+<span class='badge badge-success'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=26</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-026</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="27"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-027</p>
+            <p class="text-sm">
+              <span>2:18:34 PM</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-027</h5>
+<span class='badge badge-success'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=27</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-027</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="28"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-028</p>
+            <p class="text-sm">
+              <span>2:18:34 PM</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-028</h5>
+<span class='badge badge-success'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=28</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-028</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="29"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-029</p>
+            <p class="text-sm">
+              <span>2:18:34 PM</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-029</h5>
+<span class='badge badge-success'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=29</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-029</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="30"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-031</p>
+            <p class="text-sm">
+              <span>2:18:34 PM</span> / <span>00:00:00:002</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-031</h5>
+<span class='badge badge-success'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-default'>00:00:00:002</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=30</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-031</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="31"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-032</p>
+            <p class="text-sm">
+              <span>2:18:34 PM</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-032</h5>
+<span class='badge badge-success'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=31</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-032</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="32"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-033</p>
+            <p class="text-sm">
+              <span>2:18:34 PM</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-033</h5>
+<span class='badge badge-success'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=32</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-033</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="33"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-034</p>
+            <p class="text-sm">
+              <span>2:18:34 PM</span> / <span>00:00:00:002</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-034</h5>
+<span class='badge badge-success'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-default'>00:00:00:002</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=33</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-034</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="34"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-035</p>
+            <p class="text-sm">
+              <span>2:18:34 PM</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-035</h5>
+<span class='badge badge-success'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=34</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-035</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="35"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-036</p>
+            <p class="text-sm">
+              <span>2:18:34 PM</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-036</h5>
+<span class='badge badge-success'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=35</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-036</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="36"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-037</p>
+            <p class="text-sm">
+              <span>2:18:34 PM</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-037</h5>
+<span class='badge badge-success'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=36</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-037</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="37"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-038</p>
+            <p class="text-sm">
+              <span>2:18:34 PM</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-038</h5>
+<span class='badge badge-success'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=37</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-038</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="38"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-039</p>
+            <p class="text-sm">
+              <span>2:18:34 PM</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-039</h5>
+<span class='badge badge-success'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:34 PM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=38</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-039</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:34 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="39"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-040</p>
+            <p class="text-sm">
+              <span>2:18:35 PM</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-040</h5>
+<span class='badge badge-success'>06.23.2026 2:18:35 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:35 PM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=39</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:35 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-040</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:35 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:35 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="40"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-041</p>
+            <p class="text-sm">
+              <span>2:18:35 PM</span> / <span>00:00:00:003</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-041</h5>
+<span class='badge badge-success'>06.23.2026 2:18:35 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:35 PM</span>
+<span class='badge badge-default'>00:00:00:003</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=40</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:35 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-041</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:35 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:35 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="41"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-042</p>
+            <p class="text-sm">
+              <span>2:18:35 PM</span> / <span>00:00:00:000</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-042</h5>
+<span class='badge badge-success'>06.23.2026 2:18:35 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:35 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=41</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:35 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-042</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:35 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:35 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="42"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-043</p>
+            <p class="text-sm">
+              <span>2:18:35 PM</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-043</h5>
+<span class='badge badge-success'>06.23.2026 2:18:35 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:35 PM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=42</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:35 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-043</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:35 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:35 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="43"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-044</p>
+            <p class="text-sm">
+              <span>2:18:35 PM</span> / <span>00:00:00:002</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-044</h5>
+<span class='badge badge-success'>06.23.2026 2:18:35 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:35 PM</span>
+<span class='badge badge-default'>00:00:00:002</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=43</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:35 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-044</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:35 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:35 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="44"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-045</p>
+            <p class="text-sm">
+              <span>2:18:35 PM</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-045</h5>
+<span class='badge badge-success'>06.23.2026 2:18:35 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:35 PM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=44</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:35 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-045</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:35 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:35 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="45"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-046</p>
+            <p class="text-sm">
+              <span>2:18:35 PM</span> / <span>00:00:00:002</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-046</h5>
+<span class='badge badge-success'>06.23.2026 2:18:35 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:35 PM</span>
+<span class='badge badge-default'>00:00:00:002</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=45</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:35 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-046</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:35 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:35 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="46"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-047</p>
+            <p class="text-sm">
+              <span>2:18:35 PM</span> / <span>00:00:00:000</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-047</h5>
+<span class='badge badge-success'>06.23.2026 2:18:35 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:35 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=46</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:35 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-047</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:35 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:35 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="47"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-048</p>
+            <p class="text-sm">
+              <span>2:18:35 PM</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-048</h5>
+<span class='badge badge-success'>06.23.2026 2:18:35 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:35 PM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=47</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:35 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-048</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:35 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:35 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="48"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-049</p>
+            <p class="text-sm">
+              <span>2:18:35 PM</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-049</h5>
+<span class='badge badge-success'>06.23.2026 2:18:35 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:35 PM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=48</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:35 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-049</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:35 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:35 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="49"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-050</p>
+            <p class="text-sm">
+              <span>2:18:35 PM</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-050</h5>
+<span class='badge badge-success'>06.23.2026 2:18:35 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:18:35 PM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=49</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:35 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-050</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:35 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:18:35 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="50"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-051</p>
+            <p class="text-sm">
+              <span>2:18:35 PM</span> / <span>00:02:37:116</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">LOGIN :: Login_TC.xlsx :: PK-051</h5>
+<span class='badge badge-success'>06.23.2026 2:18:35 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:21:12 PM</span>
+<span class='badge badge-default'>00:02:37:116</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=50</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:18:35 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-051</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 1: OPEN_URL</b><br/><pre>Target:  | Value: https://beatchat.ai/ | Description: Open Beatchat login page</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 1: OPEN_URL</b><br/><pre>Completed</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 2: CLICK_DEEP</b><br/><pre>Target: css=button.login-sso-button | Value: 20 | Description: Click SSO button</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 2: CLICK_DEEP</b><br/><pre>Completed</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 3: SWITCH_TO_NEW_WINDOW</b><br/><pre>Target:  | Value: 8 | Description: Switch to auth window if opened</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 3: SWITCH_TO_NEW_WINDOW</b><br/><pre>Completed</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 4: INPUT_IF_VISIBLE</b><br/><pre>Target: id=i0116 | Value: chivq9@fpt.com | Description: Enter SSO email if requested</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 4: INPUT_IF_VISIBLE</b><br/><pre>Completed</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 5: CLICK_IF_VISIBLE</b><br/><pre>Target: id=idSIButton9 | Value: 20 | Description: Continue after email</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 5: CLICK_IF_VISIBLE</b><br/><pre>Completed</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 6: INPUT_IF_VISIBLE</b><br/><pre>Target: id=i0118 | Value: Lalisa270397. | Description: Enter SSO password if requested</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 6: INPUT_IF_VISIBLE</b><br/><pre>Completed</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 7: CLICK_IF_VISIBLE</b><br/><pre>Target: id=idSIButton9 | Value: 20 | Description: Continue after password</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 7: CLICK_IF_VISIBLE</b><br/><pre>Completed</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 8: INPUT_IF_VISIBLE</b><br/><pre>Target: xpath=//input[contains(@aria-label,&#39;Code&#39;) or contains(@placeholder,&#39;Code&#39;) or @id=&#39;idTxtBx_SAOTCC_TD&#39; or contains(@name,&#39;otc&#39;) or @type=&#39;tel&#39;] | Value:  | Description: Enter Microsoft OTP if provided</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 8: INPUT_IF_VISIBLE</b><br/><pre>Completed</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 9: CLICK_IF_INPUT_PRESENT</b><br/><pre>Target: id=idSubmit_SAOTCC_Continue | Value:  | Description: Submit OTP only when OTP exists</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 9: CLICK_IF_INPUT_PRESENT</b><br/><pre>Completed</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 10: CLICK_IF_VISIBLE</b><br/><pre>Target: xpath=//*[@id=&#39;acceptButton&#39; or @id=&#39;idSIButton9&#39; or @value=&#39;Yes&#39; or @aria-label=&#39;Yes&#39; or @title=&#39;Yes&#39; or normalize-space(.)=&#39;Yes&#39;] | Value: 30 | Description: Confirm stay signed in when prompted</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 10: CLICK_IF_VISIBLE</b><br/><pre>Completed</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 11: SWITCH_TO_WINDOW_WITH_VISIBLE</b><br/><pre>Target: xpath=//*[@id=&#39;root&#39;]//*[contains(normalize-space(.),&#39;Desktop App&#39;) or contains(normalize-space(.),&#39;FPTCHAT&#39;)] | //*[@id=&#39;root&#39;]//input | //button[.//span[normalize-space(.)=&#39;B? qua&#39;] or normalize-space(.)=&#39;B? qua&#39;] | //*[@data-placeholder=&#39;Search&#39; or @data-placeholder=&#39;Message&#39; or @data-placeholder=&#39;Tìm ki?m&#39; or @data-placeholder=&#39;Tin nh?n&#39;] | //button[contains(@class,&#39;send-btn&#39;)] | //span[contains(concat(&#39; &#39;,normalize-space(@class),&#39; &#39;),&#39; slider &#39;)] | Value: 180 | Description: Return to app after SSO</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 11: SWITCH_TO_WINDOW_WITH_VISIBLE</b><br/><pre>Completed</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 12: INPUT</b><br/><pre>Target: xpath=//*[@id=&quot;root&quot;]//input | Value: Invalid@1234 | Description: Enter invalid passphrase</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 12: INPUT</b><br/><pre>Completed</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 13: CLICK_DEEP</b><br/><pre>Target: xpath=//button[@type=&#39;button&#39; and (.//span[normalize-space()=&#39;G?i&#39; or normalize-space()=&#39;Send&#39;] or normalize-space()=&#39;G?i&#39; or normalize-space()=&#39;Send&#39;)] | Value: 10 | Description: Submit invalid passphrase</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 13: CLICK_DEEP</b><br/><pre>Completed</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 14: VERIFY_TEXT</b><br/><pre>Target:  | Value: PIN code is incorrect|Pin code is incorrect|attempts remaining|incorrect|khong dung|khong hop le|Ma bao mat | Description: Verify invalid passphrase error</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 14: VERIFY_TEXT</b><br/><pre>Completed</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 15: INPUT</b><br/><pre>Target: xpath=//*[@id=&quot;root&quot;]//input | Value: Fptchat@1234 | Description: Enter valid passphrase after failed attempt</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 15: INPUT</b><br/><pre>Completed</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 16: CLICK_DEEP</b><br/><pre>Target: xpath=//button[@type=&#39;button&#39; and (.//span[normalize-space()=&#39;G?i&#39; or normalize-space()=&#39;Send&#39;] or normalize-space()=&#39;G?i&#39; or normalize-space()=&#39;Send&#39;)] | Value: 10 | Description: Submit valid passphrase</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 16: CLICK_DEEP</b><br/><pre>Completed</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 17: WAIT_VISIBLE</b><br/><pre>Target: xpath=//*[contains(@class,&#39;create-room&#39;) or contains(@class,&#39;send-btn&#39;)] | //*[@contenteditable=&#39;true&#39; and (@data-placeholder or @placeholder or @aria-label)] | //*[@data-placeholder=&#39;Search&#39; or @data-placeholder=&#39;Message&#39; or @data-placeholder=&#39;Tìm ki?m&#39; or @data-placeholder=&#39;Tin nh?n&#39;] | //*[@placeholder=&#39;Search&#39; or @placeholder=&#39;Message&#39; or @placeholder=&#39;Tìm ki?m&#39; or @placeholder=&#39;Tin nh?n&#39;] | //*[@aria-label=&#39;Search&#39; or @aria-label=&#39;Message&#39; or @aria-label=&#39;Tìm ki?m&#39; or @aria-label=&#39;Tin nh?n&#39;] | Value: 120 | Description: Wait until chat list is ready</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 17: WAIT_VISIBLE</b><br/><pre>Completed</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 18: INPUT_EDITOR</b><br/><pre>Target: xpath=//*[@data-placeholder=&#39;Search&#39; or @data-placeholder=&#39;Tìm ki?m&#39; or @placeholder=&#39;Search&#39; or @placeholder=&#39;Tìm ki?m&#39; or @aria-label=&#39;Search&#39; or @aria-label=&#39;Tìm ki?m&#39;] | Value: fptchat01 | Description: Search fptchat01</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 18: INPUT_EDITOR</b><br/><pre>Completed</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 19: CLICK_DEEP</b><br/><pre>Target: xpath=//p[contains(@class,&#39;department&#39;) and normalize-space(.)=&#39;fptchat01&#39;]/ancestor::div[contains(@class,&#39;element-user-info&#39;)][1] | Value: 10 | Description: Open fptchat01 chat result using existing account result locator</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 19: CLICK_DEEP</b><br/><pre>Completed</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 20: INPUT_EDITOR</b><br/><pre>Target: xpath=//*[@id=&#39;chat_detail_provider&#39;]//*[@contenteditable=&#39;true&#39;] | //p[@data-placeholder=&#39;Message&#39; or @data-placeholder=&#39;Tin nh?n&#39; or @placeholder=&#39;Message&#39; or @placeholder=&#39;Tin nh?n&#39; or @aria-label=&#39;Message&#39; or @aria-label=&#39;Tin nh?n&#39;] | //*[@contenteditable=&#39;true&#39; and (@data-placeholder=&#39;Message&#39; or @data-placeholder=&#39;Tin nh?n&#39; or @placeholder=&#39;Message&#39; or @placeholder=&#39;Tin nh?n&#39; or @aria-label=&#39;Message&#39; or @aria-label=&#39;Tin nh?n&#39;)] | Value: Autotest secure login voice call PK-051 | Description: Type message</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 20: INPUT_EDITOR</b><br/><pre>Completed</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 21: CLICK_DEEP</b><br/><pre>Target: css=button.send-btn | Value: 10 | Description: Send message</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 21: CLICK_DEEP</b><br/><pre>Completed</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 22: VERIFY_TEXT</b><br/><pre>Target:  | Value: Autotest secure login voice call PK-051 | Description: Verify sent message is visible</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 22: VERIFY_TEXT</b><br/><pre>Completed</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 23: CLICK_DEEP</b><br/><pre>Target: xpath=//*[@id=&quot;chat_detail_provider&quot;]/div/div[1]/div[1]/div[2]/div[1]/div[2]/div | Value: 10 | Description: Start voice call</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 23: CLICK_DEEP</b><br/><pre>Completed</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 24: WAIT</b><br/><pre>Target:  | Value: 60 | Description: Wait for receiver to answer the call</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 24: WAIT</b><br/><pre>Completed</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 25: WAIT_VISIBLE</b><br/><pre>Target: xpath=//*[@id=&quot;root&quot;]/div[1]/div[2]/main/div/div[2]/div/div/div[2]/div[2]/div[2]/button[2] | Value: 60 | Description: Wait until connected call shows End call button</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <b>Step 25: WAIT_VISIBLE</b><br/><pre>Description: Wait until connected call shows End call button | TimeoutException: Element was not visible within 60 seconds: By.xpath: //*[@id=&quot;root&quot;]/div[1]/div[2]/main/div/div[2]/div/div/div[2]/div[2]/div[2]/button[2]
+Build info: version: &#39;4.21.0&#39;, revision: &#39;79ed462ef4&#39;
+System info: os.name: &#39;Windows 11&#39;, os.arch: &#39;amd64&#39;, os.version: &#39;10.0&#39;, java.version: &#39;17.0.19&#39;
+Driver info: driver.version: unknown</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <textarea readonly class="code-block">org.openqa.selenium.TimeoutException: Element was not visible within 60 seconds: By.xpath: //*[@id="root"]/div[1]/div[2]/main/div/div[2]/div/div/div[2]/div[2]/div[2]/button[2]
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.19'
+Driver info: driver.version: unknown
+	at core.keywords.Actions.waitUntilVisible(Actions.java:129)
+	at core.engine.KeywordEngine.executeSteps(KeywordEngine.java:207)
+	at runner.TestRunner.runExcelTestCase(TestRunner.java:101)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</textarea>
+          
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          Failure screenshot
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshots/LOGIN _ Login_TC.xlsx _ PK-051_20260623_142112_106.png' src="screenshots/LOGIN _ Login_TC.xlsx _ PK-051_20260623_142112_106.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <span class='badge white-text red'>FAILED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="51"
+          author=""
+          tag="LOGIN"
+          device="">
+          <div class="test-detail">
+            <p class="name">LOGIN :: Login_TC.xlsx :: PK-052</p>
+            <p class="text-sm">
+              <span>2:21:12 PM</span> / <span>00:00:00:001</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">LOGIN :: Login_TC.xlsx :: PK-052</h5>
+<span class='badge badge-success'>06.23.2026 2:21:12 PM</span>
+<span class='badge badge-danger'>06.23.2026 2:21:12 PM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=51</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LOGIN</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <table class='markup-table table '><tr><td>Field</td><td>Value</td></tr><tr><td>Feature</td><td>LOGIN</td></tr><tr><td>Excel File</td><td>Login_TC.xlsx</td></tr><tr><td>Test Case</td><td>PK-052</td></tr></table>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          Testcase is not selected for this run
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>2:21:12 PM</td>
+        <td>
+          <span class='badge white-text orange'>SKIPPED</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">org.openqa.selenium.TimeoutException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.TimeoutException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:18:35 PM</td>
+<td>
+<a href="#" class="linked" test-id='50' id='50'>LOGIN :: Login_TC.xlsx :: PK-051</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+<span class='badge log badge-skip'>50</span>
+</span>
+<p class="name">LOGIN</p>
+<p class="duration text-sm">51 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>LOGIN</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+<span status="skip" class='badge log badge-skip'>50 skipped</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>LOGIN :: Login_TC.xlsx :: PK-001</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>LOGIN :: Login_TC.xlsx :: PK-002</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>LOGIN :: Login_TC.xlsx :: PK-003</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>LOGIN :: Login_TC.xlsx :: PK-004</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>LOGIN :: Login_TC.xlsx :: PK-005</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>LOGIN :: Login_TC.xlsx :: PK-006</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>LOGIN :: Login_TC.xlsx :: PK-007</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>LOGIN :: Login_TC.xlsx :: PK-008</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>LOGIN :: Login_TC.xlsx :: PK-009</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>LOGIN :: Login_TC.xlsx :: PK-010</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>LOGIN :: Login_TC.xlsx :: PK-011</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>LOGIN :: Login_TC.xlsx :: PK-012</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>LOGIN :: Login_TC.xlsx :: PK-013</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='14' id='14'>LOGIN :: Login_TC.xlsx :: PK-014</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>LOGIN :: Login_TC.xlsx :: PK-015</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='16' id='16'>LOGIN :: Login_TC.xlsx :: PK-016</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>LOGIN :: Login_TC.xlsx :: PK-017</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='18' id='18'>LOGIN :: Login_TC.xlsx :: PK-018</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='19' id='19'>LOGIN :: Login_TC.xlsx :: PK-019</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='20' id='20'>LOGIN :: Login_TC.xlsx :: PK-020</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='21' id='21'>LOGIN :: Login_TC.xlsx :: PK-021</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='22' id='22'>LOGIN :: Login_TC.xlsx :: PK-022</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='23' id='23'>LOGIN :: Login_TC.xlsx :: PK-023</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='24' id='24'>LOGIN :: Login_TC.xlsx :: PK-024</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='25' id='25'>LOGIN :: Login_TC.xlsx :: PK-025</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='26' id='26'>LOGIN :: Login_TC.xlsx :: PK-026</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='27' id='27'>LOGIN :: Login_TC.xlsx :: PK-027</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='28' id='28'>LOGIN :: Login_TC.xlsx :: PK-028</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='29' id='29'>LOGIN :: Login_TC.xlsx :: PK-029</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='30' id='30'>LOGIN :: Login_TC.xlsx :: PK-031</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='31' id='31'>LOGIN :: Login_TC.xlsx :: PK-032</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='32' id='32'>LOGIN :: Login_TC.xlsx :: PK-033</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='33' id='33'>LOGIN :: Login_TC.xlsx :: PK-034</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='34' id='34'>LOGIN :: Login_TC.xlsx :: PK-035</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='35' id='35'>LOGIN :: Login_TC.xlsx :: PK-036</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='36' id='36'>LOGIN :: Login_TC.xlsx :: PK-037</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='37' id='37'>LOGIN :: Login_TC.xlsx :: PK-038</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='38' id='38'>LOGIN :: Login_TC.xlsx :: PK-039</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:35 PM</td>
+<td>
+<a href="#" class="linked" test-id='39' id='39'>LOGIN :: Login_TC.xlsx :: PK-040</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:35 PM</td>
+<td>
+<a href="#" class="linked" test-id='40' id='40'>LOGIN :: Login_TC.xlsx :: PK-041</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:35 PM</td>
+<td>
+<a href="#" class="linked" test-id='41' id='41'>LOGIN :: Login_TC.xlsx :: PK-042</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:35 PM</td>
+<td>
+<a href="#" class="linked" test-id='42' id='42'>LOGIN :: Login_TC.xlsx :: PK-043</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:35 PM</td>
+<td>
+<a href="#" class="linked" test-id='43' id='43'>LOGIN :: Login_TC.xlsx :: PK-044</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:35 PM</td>
+<td>
+<a href="#" class="linked" test-id='44' id='44'>LOGIN :: Login_TC.xlsx :: PK-045</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:35 PM</td>
+<td>
+<a href="#" class="linked" test-id='45' id='45'>LOGIN :: Login_TC.xlsx :: PK-046</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:35 PM</td>
+<td>
+<a href="#" class="linked" test-id='46' id='46'>LOGIN :: Login_TC.xlsx :: PK-047</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:35 PM</td>
+<td>
+<a href="#" class="linked" test-id='47' id='47'>LOGIN :: Login_TC.xlsx :: PK-048</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:35 PM</td>
+<td>
+<a href="#" class="linked" test-id='48' id='48'>LOGIN :: Login_TC.xlsx :: PK-049</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:18:35 PM</td>
+<td>
+<a href="#" class="linked" test-id='49' id='49'>LOGIN :: Login_TC.xlsx :: PK-050</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:18:35 PM</td>
+<td>
+<a href="#" class="linked" test-id='50' id='50'>LOGIN :: Login_TC.xlsx :: PK-051</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>14:21:12 PM</td>
+<td>
+<a href="#" class="linked" test-id='51' id='51'>LOGIN :: Login_TC.xlsx :: PK-052</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Jun 23, 2026 02:18:32 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Jun 23, 2026 02:21:12 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>0</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'>
+<b>0</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='1%'><b>1</b> tests failed,
+<b>50</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='11%'><b>24</b> events passed</small></div>
+<div>
+<small data-tooltip='1%'><b>4</b> events failed,
+<b data-tooltip='%'>176</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"LOGIN :: Login_TC.xlsx :: PK-001":0.033,"LOGIN :: Login_TC.xlsx :: PK-002":0.002,"LOGIN :: Login_TC.xlsx :: PK-003":0.001,"LOGIN :: Login_TC.xlsx :: PK-004":0.001,"LOGIN :: Login_TC.xlsx :: PK-005":0.001,"LOGIN :: Login_TC.xlsx :: PK-006":0.001,"LOGIN :: Login_TC.xlsx :: PK-007":0.001,"LOGIN :: Login_TC.xlsx :: PK-008":0.001,"LOGIN :: Login_TC.xlsx :: PK-009":0.001,"LOGIN :: Login_TC.xlsx :: PK-010":0,"LOGIN :: Login_TC.xlsx :: PK-011":0.001,"LOGIN :: Login_TC.xlsx :: PK-012":0,"LOGIN :: Login_TC.xlsx :: PK-013":0,"LOGIN :: Login_TC.xlsx :: PK-014":0.001,"LOGIN :: Login_TC.xlsx :: PK-015":0.001,"LOGIN :: Login_TC.xlsx :: PK-016":0.002,"LOGIN :: Login_TC.xlsx :: PK-017":0,"LOGIN :: Login_TC.xlsx :: PK-018":0.001,"LOGIN :: Login_TC.xlsx :: PK-019":0,"LOGIN :: Login_TC.xlsx :: PK-020":0.001,"LOGIN :: Login_TC.xlsx :: PK-021":0.001,"LOGIN :: Login_TC.xlsx :: PK-022":0.001,"LOGIN :: Login_TC.xlsx :: PK-023":0,"LOGIN :: Login_TC.xlsx :: PK-024":0,"LOGIN :: Login_TC.xlsx :: PK-025":0.002,"LOGIN :: Login_TC.xlsx :: PK-026":0.001,"LOGIN :: Login_TC.xlsx :: PK-027":0.001,"LOGIN :: Login_TC.xlsx :: PK-028":0.001,"LOGIN :: Login_TC.xlsx :: PK-029":0.001,"LOGIN :: Login_TC.xlsx :: PK-031":0.002,"LOGIN :: Login_TC.xlsx :: PK-032":0.001,"LOGIN :: Login_TC.xlsx :: PK-033":0.001,"LOGIN :: Login_TC.xlsx :: PK-034":0.002,"LOGIN :: Login_TC.xlsx :: PK-035":0.001,"LOGIN :: Login_TC.xlsx :: PK-036":0.001,"LOGIN :: Login_TC.xlsx :: PK-037":0.001,"LOGIN :: Login_TC.xlsx :: PK-038":0.001,"LOGIN :: Login_TC.xlsx :: PK-039":0.001,"LOGIN :: Login_TC.xlsx :: PK-040":0.001,"LOGIN :: Login_TC.xlsx :: PK-041":0.003,"LOGIN :: Login_TC.xlsx :: PK-042":0,"LOGIN :: Login_TC.xlsx :: PK-043":0.001,"LOGIN :: Login_TC.xlsx :: PK-044":0.002,"LOGIN :: Login_TC.xlsx :: PK-045":0.001,"LOGIN :: Login_TC.xlsx :: PK-046":0.002,"LOGIN :: Login_TC.xlsx :: PK-047":0,"LOGIN :: Login_TC.xlsx :: PK-048":0.001,"LOGIN :: Login_TC.xlsx :: PK-049":0.001,"LOGIN :: Login_TC.xlsx :: PK-050":0.001,"LOGIN :: Login_TC.xlsx :: PK-051":157.116,"LOGIN :: Login_TC.xlsx :: PK-052":0.001
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>LOGIN</td>
+<td>0</td>
+<td>1</td>
+<td>50</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>Environment</td>
+<td>uat</td>
+</tr>
+<tr>
+<td>Browser</td>
+<td>chrome</td>
+</tr>
+<tr>
+<td>OS</td>
+<td>Windows 11</td>
+</tr>
+<tr>
+<td>Java</td>
+<td>17.0.19</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 0,
+failParent: 1,
+warningParent: 0,
+skipParent: 50,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 24,
+failEvents: 4,
+warningEvents: 0,
+skipEvents: 100,
+infoEvents: 76
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
